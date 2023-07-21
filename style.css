@@ -1,0 +1,62 @@
+*body{
+margin:0;
+padding:0;
+}
+.nav {
+    background-color:rgb(39, 107, 68) ;
+    font-size: medium;
+    
+    
+    text-align: center;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+    
+}
+.jumbotron
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(236, 165, 165);
+    background-image: url(/o.webp);
+}
+.nav li{
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 2px solid red;
+    color: rgb(98, 186, 186);
+}
+.nav a{
+    color: aliceblue;
+}
+.nav a:hover{
+    background-color: rgb(56, 102, 143);
+}
+.buttons {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and {min-width: 600px;}{
+    .nav li
+width:120px;
+}
+.row
+{
+    padding: 20px;
+    display: flex;
+    background-image: image(o.webp);
+}
+.cheat{
+    text-align: center;
+}
+.col-x5-12 col-md-9{
+    background-image: url(p.jpg);
+}
+.container{
+    text-align: center;
+}
